@@ -1,0 +1,168 @@
+{
+  "project_info": {
+    "name": "Piyush Priyadarshi Portfolio",
+    "role": "Software Engineer | Frontend Developer | Product-minded UI Engineer",
+    "theme": "Dark-first premium Awwwards Site-of-the-Day level",
+    "file_extension": "js"
+  },
+  "colors": {
+    "background": "#09090B",
+    "surface": "#111114",
+    "surface_secondary": "#18181B",
+    "surface_tertiary": "#27272A",
+    "border_subtle": "rgba(255, 255, 255, 0.08)",
+    "border_active": "rgba(59, 130, 246, 0.4)",
+    "primary_text": "#FAFAFA",
+    "secondary_text": "#A1A1AA",
+    "muted_text": "#71717A",
+    "accent_primary": "#3B82F6",
+    "accent_primary_glow": "rgba(59, 130, 246, 0.15)",
+    "accent_secondary": "#8B5CF6",
+    "accent_secondary_glow": "rgba(139, 92, 246, 0.12)",
+    "success": "#10B981",
+    "warning": "#F59E0B",
+    "error": "#EF4444"
+  },
+  "typography": {
+    "font_family_heading": "Geist, Inter, sans-serif",
+    "font_family_body": "Inter, sans-serif",
+    "font_family_mono": "JetBrains Mono, monospace",
+    "scale": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl tracking-tight font-extrabold leading-[1.08]",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl tracking-tight font-bold leading-tight",
+      "h3_card": "text-xl sm:text-2xl font-semibold tracking-normal",
+      "h4_sub": "text-lg font-medium",
+      "body_lg": "text-lg sm:text-xl text-zinc-300 leading-relaxed",
+      "body_base": "text-base text-zinc-400 leading-relaxed",
+      "body_sm": "text-sm text-zinc-400",
+      "caption_mono": "font-mono text-xs uppercase tracking-[0.2em] text-blue-400"
+    }
+  },
+  "layout_and_spacing": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section_padding": "py-24 md:py-32",
+    "grid_bento": "grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-8",
+    "header": "fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-[#09090B]/80 border-b border-white/5 h-20 transition-all duration-300"
+  },
+  "hero_signature_moment": {
+    "concept": "Kinetic Masked Line-by-Line Reveal with Interactive Code/Interface Node Canvas",
+    "headline": "Building digital experiences where engineering meets design.",
+    "subtext": "Software Engineer & Product-minded UI Engineer specializing in high-performance frontend architectures, design systems, and AI-powered web applications.",
+    "availability_badge": "Available for Select Opportunities / Q3 2026",
+    "cta": [
+      {"label": "View Selected Work", "action": "#projects", "style": "primary_pill"},
+      {"label": "Download Resume", "action": "#resume", "style": "outline_pill"}
+    ],
+    "socials": ["GitHub (github.com/piyush130504-wq)", "LinkedIn"],
+    "interactive_element": "SVG/Canvas Architecture Diagram node graph with interactive hover states & reactive laser connecting beams."
+  },
+  "marquee": {
+    "type": "Editorial Slow Drift Ribbon",
+    "text_items": [
+      "FRONTEND ENGINEERING", "DESIGN SYSTEMS", "AI-POWERED APPS", "PRODUCT ARCHITECTURE", "UI/UX CASE STUDIES", "REACT & NEXT.JS", "TAILWIND & FRAMER MOTION"
+    ],
+    "style": "font-mono text-xs md:text-sm uppercase tracking-[0.25em] text-zinc-400 border-y border-white/5 py-4 bg-[#111114]/50"
+  },
+  "sections": {
+    "about_me": {
+      "id": "about",
+      "title": "Engineering Philosophy & Background",
+      "editorial_intro": "I bridge the gap between creative design intuition and rigorous frontend architecture. Coding with pixel-level precision, performance-first mindsets, and design system clarity.",
+      "tech_stack_bento": [
+        "Core: React, Next.js, TypeScript, Tailwind CSS, Framer Motion",
+        "State & Data: Redux, Zustand, REST, GraphQL, MongoDB",
+        "AI/ML: Gemini API, TensorFlow Lite, XGBoost, Python",
+        "Tooling: Vite, Vercel, Git, Figma, Webpack"
+      ]
+    },
+    "featured_projects": [
+      {
+        "id": "rodic-ai",
+        "title": "Rodic AI Startup Idea Screening Platform",
+        "tech": ["React", "Vercel Serverless", "MongoDB", "Gemini API"],
+        "description": "AI-driven evaluation engine rating early-stage startup proposals on market viability, risk, and scalability.",
+        "image_url": "https://images.unsplash.com/photo-1614851099511-773084f6911d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHwxfHxmdXR1cmlzdGljJTIwYWJzdHJhY3QlMjBkYXJrJTIwdGVjaG5vbG9neSUyMGdyYWRpZW50JTIwVUklMjB0ZXh0dXJlfGVufDB8fHx8MTc5NDU2MjA3NHww&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "id": "reep-digital-twin",
+        "title": "Rodic Engineering Excellence Program (REEP)",
+        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Canvas Animation"],
+        "description": "Interactive digital twin & scroll-driven canvas visualization for engineering excellence tracking.",
+        "image_url": "https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHwyfHxmdXR1cmlzdGljJTIwYWJzdHJhY3QlMjBkYXJrJTIwdGVjaG5vbG9neSUyMGdyYWRpZW50JTIwVUklMjB0ZXh0dXJlfGVufDB8fHx8MTc5NDU2MjA3NHww&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "id": "crop-yield-ai",
+        "title": "Crop Yield Prediction & SHAP Interpretability Engine",
+        "tech": ["Python", "XGBoost", "LSTM", "TensorFlow Lite", "SHAP"],
+        "description": "Machine learning system delivering accurate agricultural yield forecasts with feature attribution.",
+        "image_url": "https://images.unsplash.com/photo-1665652475985-37e285aeff53?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHwzfHxmdXR1cmlzdGljJTIwYWJzdHJhY3QlMjBkYXJrJTIwdGVjaG5vbG9neSUyMGdyYWRpZW50JTIwVUklMjB0ZXh0dXJlfGVufDB8fHx8MTc5NDU2MjA3NHww&ixlib=rb-4.1.0&q=85"
+      }
+    ],
+    "interactive_case_studies": [
+      {
+        "route": "/work/crm",
+        "title": "Case Study 01: SaaS CRM Dashboard",
+        "summary": "Full interactive mini-product featuring collapsible navigation sidebar, live metric filtering, revenue/sales charts, deal pipeline drag simulation, customer transactions, and search.",
+        "key_features": ["Collapsible sidebar", "KPI summary cards", "Revenue time-series chart", "Deals pipeline stage board", "Sortable customer data table"]
+      },
+      {
+        "route": "/work/design-system",
+        "title": "Case Study 02: Design System Architecture",
+        "summary": "Interactive design tokens explorer: typography scale tester, color token swatches, component states playground (Button, Input, Badge, Dialog), spacing & radius token matrices.",
+        "key_features": ["Dynamic typography preview", "Hex/RGB color token inspector", "All interactive button & input states", "Spacing/Radius token visualizer"]
+      },
+      {
+        "route": "/work/analytics",
+        "title": "Case Study 03: Complex Data Analytics Dashboard",
+        "summary": "High-density data platform featuring time-series comparisons, multi-variable filters, searchable data grids, expandable breakdown panels, and report export controls.",
+        "key_features": ["High-density data matrix", "Time-series comparison charts", "Advanced filter drawers", "Expandable row details", "Data export simulation"]
+      }
+    ],
+    "playground": {
+      "id": "playground",
+      "title": "Interactive Design & UI Token Playground",
+      "description": "Live interactive control room demonstrating light/dark toggle simulation, accent color switcher, button variants, input states, badges, and feedback components.",
+      "controls": ["Accent switcher (Blue / Violet / Emerald / Rose)", "Component state toggles", "Typography scale inspector"]
+    },
+    "timeline": [
+      {"role": "Software & AI Engineering Intern", "company": "Rodic Consultants", "period": "2024", "details": "Built AI startup screening engine & REEP canvas platform."},
+      {"role": "Data Centre Engineering Intern", "company": "Beltron", "period": "2023", "details": "Managed data center network infrastructure and server analytics."},
+      {"role": "Marketing Assistant", "company": "Befoodie.io", "period": "2023", "details": "Designed digital campaign assets and user growth strategies."},
+      {"role": "General Secretary", "company": "IEEE Student Branch", "period": "2022 - 2024", "details": "Led technical workshops, hackathons, and student engineering initiatives."}
+    ],
+    "skills": {
+      "Frontend": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Redux/Zustand", "HTML5/CSS3"],
+      "Backend": ["Node.js", "Express", "Python", "REST APIs", "Vercel Serverless"],
+      "AI & ML": ["Gemini API", "TensorFlow Lite", "XGBoost", "LSTM", "SHAP"],
+      "Database & Infrastructure": ["MongoDB", "Git / GitHub", "Vercel", "Docker Basics", "Linux Administration"]
+    },
+    "contact": {
+      "id": "contact",
+      "headline": "Have an interesting product to build?",
+      "email": "piyush130504@gmail.com",
+      "github": "https://github.com/piyush130504-wq",
+      "linkedin": "https://linkedin.com",
+      "form": "Validated contact form with backend MongoDB persistence & feedback toast"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-[#111114]/80 border border-white/10 shadow-2xl",
+    "card_hover": "hover:-translate-y-1 hover:border-blue-500/40 hover:shadow-lg hover:shadow-blue-500/5 transition-all duration-300",
+    "glow_effects": "bg-gradient-to-r from-blue-500/10 to-violet-500/10 blur-3xl opacity-50 pointer-events-none"
+  },
+  "component_path": "/app/frontend/src/components/",
+  "instructions_to_main_agent": {
+    "routing": "Use React Router (BrowserRouter, Routes, Route) for main layout and dedicated case study routes (/work/crm, /work/design-system, /work/analytics).",
+    "data_testid": "MANDATORY: Add unique kebab-case data-testid to every button, link, input, card, menu, and key metric for robust automated testing.",
+    "icons": "Use lucide-react icons throughout the application. NEVER use raw emoji characters for icons.",
+    "no_transparent_nav": "Ensure the navbar always has a solid/semi-solid backdrop-blur background bg-[#09090B]/80 with z-50 to prevent transparency overlap issues.",
+    "file_type": "Remember all frontend components must be written as JavaScript (.js) files, not TypeScript (.tsx)."
+  },
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Avoid generic AI slop: use custom, dark-first styling with generous spacing, distinct typography, and rich micro-interactions.",
+    "Ensure high contrast compliance on all text and active interactive elements.",
+    "Add hover, active, focus states, and Framer Motion entrance reveals to all cards and buttons.",
+    "Keep standard smooth scrolling enabled via Lenis or Framer Motion scroll triggers.",
+    "Support prefers-reduced-motion for user accessibility."
+  ]
+}
